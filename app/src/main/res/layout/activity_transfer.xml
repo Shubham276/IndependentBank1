@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/transferlayout"
+    tools:context="ten.independentbank.Transfer">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer Money"
+        android:gravity="center"
+        android:textColor="#0f0"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <RelativeLayout
+        android:layout_below="@+id/transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_marginTop="2dp"
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            />
+    </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#43eace"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_margin="2dp"
+
+                android:text="Account Number"
+                android:background="@drawable/shape"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/anum"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="7"
+                android:background="#fff"
+                android:hint="enter account number"
+                android:textColorHint="@color/transparent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:text="Account Name"
+                android:background="@drawable/shape"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/aname"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="7"
+                android:background="#fff"
+                android:hint="enter account name"
+                android:textColorHint="@color/transparent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:layout_margin="2dp"
+                android:text="Transfer"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/acash"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="7"
+                android:background="#fff"
+                android:hint="transfer"
+                android:textColorHint="@color/transparent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="4"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:text="Password"
+                android:background="@drawable/shape"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="7"
+                android:background="#fff"
+                android:textColorHint="@color/transparent"
+                android:hint="enter password"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/trans"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape"
+                android:text="Transfer Now"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>

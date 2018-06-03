@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+    <item android:title="Services"
+        android:checkable="true"
+        >
+        <menu>
+            <item
+                android:id="@+id/transfer"
+                android:title="Transfer" />
+            <item
+                android:id="@+id/balance"
+                android:title="Balance Enquiry" />
+            <item
+                android:id="@+id/wallet"
+                android:title="Wallet" />
+        </menu>
+    </item>
+    </group>
+        <item
+            android:id="@+id/rules"
+            android:title="RBI Rules" />
+        <item
+            android:id="@+id/about"
+            android:title="About Us" />
+
+
+</menu>
